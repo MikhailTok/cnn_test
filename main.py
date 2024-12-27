@@ -26,4 +26,9 @@ async def get_model():
     
     return {'model_predict': True}
 
+
+@app.get("/just_test")
+async def home():
+   return {"data": "just_test"}
+
    
